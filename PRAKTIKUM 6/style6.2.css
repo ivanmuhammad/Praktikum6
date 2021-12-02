@@ -1,0 +1,41 @@
+.container{
+    width: 1400;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-areas: 
+        "nav header header"
+        "nav articel aside"
+        "nav footer footer";
+}
+.header{
+    grid-area: header;
+    background-color: yellow;
+    font-weight: bold;
+    height: 100px;
+}
+.nav{
+    grid-area: nav;
+    background-color: pink;
+    font-weight: bold;
+}
+.articel{
+    grid-area: articel;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    height: 470px;
+    width: 300px;
+}
+.aside{
+    grid-area: aside;
+    background-color: rgb(99, 253, 238);
+    font-weight: bold;
+    height: 470px;;
+
+}
+.footer{
+    grid-area: footer;
+    background-color: yellow;
+    font-weight: bold;
+    height: 100px;
+}

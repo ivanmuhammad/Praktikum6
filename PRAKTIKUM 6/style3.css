@@ -1,0 +1,43 @@
+body{
+    background-color: tomato;
+}
+
+header {
+    background-color: greenyellow;
+    height: 50px;
+    width: 100%; 
+}
+
+.main {
+    display: flex;
+}
+
+.aside {
+    width: 400px;
+    height: 500px;
+    background-color: slategrey;
+    margin: 20px 20px 20px 0px;
+    
+}
+
+.article {
+    width: 950px;
+    height: 500px;
+    background-color: springgreen;
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0px ;
+}
+
+img {
+    height: 33%;
+    width:30%;
+    background-color: white;
+    margin: 20px;
+}
+
+footer {
+    background-color: greenyellow;
+    height: 50px;
+    width: 100%;
+}
